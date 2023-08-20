@@ -4,53 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign_Up</title>
+    <link rel="stylesheet" href="./signup.css">
 
 </head>
 <body>
 
 <!-- Instagram Signup Page.................. -->
 
-  <div id="instagram-signup">
+    <div id="instagram-signup">
 
- <div>Instagram SignUp</div>
+        <div  id="instagram-heading">Instagram SignUp</div>
 
-    <form method="post" action = "/signUp">
+        <div id="instagram-form">
 
-        <label for="name">Name</label> <br>
-        <input type="text" , id="name" , placeholder="Enter your Name" , name="name of client" ><br>
-
-        <label for="username">Username <br></label> 
-        <input type="text" , id="username" , placeholder="Enter the  Username" , name="client username" > <br>
-
+            <form method="post" action = "/signUp" id="instagram">
        
-        <label for="email">Email</label> <br>
-        <input type="text" , id="email" , placeholder="Enter your Email" , name="clien email"> <br>
+                <label for="name"><h3>Name</h3></label>
+                <input type="text" , id="name" , placeholder="Enter your Name" , name="name of client" ><br>
+        
+                <label for="username"><h3>Username</h3></label> 
+                <input type="text" , id="username" , placeholder="Enter the  Username" , name="client username" > <br>
+        
+               
+                <label for="email"> <h3>Email</h3></label> 
+                <input type="text" , id="email" , placeholder="Enter your Email" , name="clien email"> <br>
+        
+                <label for="password"> <h3>Password</h3> </label> 
+                <input type="text" , id="password", name="user password", placeholder="Enter your Password" > <br>
+        
+                <label for="bio"> <h3>Bio</h3></label> 
+                <input type="text" , id="bio" , name="user bio", placeholder="Enter your Bio" ><br>
+                <br>
+        
+                <button onclick = "singup()" id="signup-button"> Sign Up</button> <br><br>
+        
+        <div id="forgot_password_login">
+        
+        
+            <div id="forgot-password">
+                Forgot Password?
+           </div>
+        
+           <div id="log-in">
+               Log In
+           </div>
+        
+        </div>
+                
+            </form>
 
-        <label for="password">Password</label> <br>
-        <input type="text" , id="password", name="user password", placeholder="Enter your Password" > <br>
-
-        <label for="bio">Bio</label> <br>
-        <input type="text" , id="bio" , name="user bio", placeholder="Enter your Bio" ><br>
-        <br>
-
-        <button onclick = "singup()" id="signup"> Sign Up</button> <br><br>
-
-<div id="forgot_password_login">
+        </div>
+       
+         </div>
 
 
-    <div id="forgot-password">
-        Forgot Password?
-   </div>
 
-   <div id="log-in">
-       Log In
-   </div>
+
 
 </div>
-        
-    </form>
-
-  </div>
+ 
     
 </body>
 </html>

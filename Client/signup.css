@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+ max-height: 100vh;
+background: linear-gradient(270deg , #153677 , #4e085f);
+}
+
+#instagram-signup{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+#instagram-signup{
+    width: 370px;
+    height: 500px;
+    background-color: #fff;
+    gap: 7px;
+}
+
+#instagram-heading{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+#instagram{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+#instagram h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size:14px;
+}
+
+#instagram input{
+    padding: 5px 175px 5px 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#signup-button{
+    padding: 5px 0px 5px 0px;
+    background-color: #3897f0;
+    font-weight: 900;
+    border-color: #3897f0;
+    border-radius: 5px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-bottom: 21px;
+    position: relative;
+    bottom: 19px;
+    cursor: pointer;
+}
+
+#forgot_password_login{
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5px;
+    position: relative;
+    bottom: 70px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    font-size: small;
+    
+}
