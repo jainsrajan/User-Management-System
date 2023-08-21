@@ -1,8 +1,8 @@
+const PORT = 5000 || process.env.PORT
 const app = require('./app.js')
-const PORT = porcess.env.PORT || 4000
 
 
-
-app.listen(PORT, ()=>{
-     res.send(`Server is runnin gon port ${PORT}`)
-})
+app.listen(PORT , ()=>{
+     console.log(`Server is listening on port ${PORT}`)
+ })
+ 

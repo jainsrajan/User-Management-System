@@ -2,6 +2,8 @@ require ('dotenv').config()
 const express = require('express')
 const app = express()
 
-app.get('/' , (req , res)=>{
-    res.send('Hello Instagram')
+app.use('/' , (req , res)=>{
+    res.status(200).send({msg:'Hello instagram'})
 })
+
+module.exports = app
