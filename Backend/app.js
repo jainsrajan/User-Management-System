@@ -8,7 +8,7 @@ connect_to_database()
 app.use(express.json())
 
 const router = require('./Router/routes.js')
-app.use('/' , router)
+app.use("/" , router)
 
 
 module.exports = app
