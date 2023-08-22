@@ -16,6 +16,7 @@ if(!name || !username || !email || !password || !bio)
     })
 }
 
+
         await User.create({...req.body})
 
      res.status(200).send({msg:"User Signup Successfully"})

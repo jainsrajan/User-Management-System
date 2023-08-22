@@ -1,4 +1,4 @@
-const PORT = 5000 || process.env.PORT
+const PORT = 8080
 const app = require('./app.js')
 
 
