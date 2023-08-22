@@ -2,8 +2,13 @@ require ('dotenv').config()
 const express = require('express')
 const app = express()
 
-app.use('/' , (req , res)=>{
-    res.status(200).send({msg:'Hello instagram'})
-})
+const connect_to_database = require('./Database-connection/db.js')
+connect_to_database()
+
+app.use(express.json())
+
+const router = require('./Router/routes.js')
+app.use('/' , router)
+
 
 module.exports = app
